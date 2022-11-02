@@ -1,0 +1,89 @@
+.postshar{
+    display: flex;
+    background-color: var(--cardColor);
+    gap: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.postshar>img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.postshar>div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+}
+
+
+.postshar>div>input{
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+    outline: none;
+}
+
+
+.postoption{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.option{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.option:nth-child(1){
+    color: var(--photo);
+}
+
+.option:nth-child(2){
+    color: var(--video);
+}
+
+.option:nth-child(3){
+    color: var(--location);
+}
+
+.option:nth-child(4){
+    color: var(--shedule);
+}
+
+.ps-share{
+    padding: 5px;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+.prevewimg{
+    position: relative;
+}
+
+.prevewimg>h1{
+    cursor: pointer;
+}
+
+.prevewimg>img{
+    widows: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
